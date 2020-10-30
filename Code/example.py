@@ -14,4 +14,12 @@
 	# What was the name of the function we have seen which changes the case of a string?  Use your CLI to access the Python documentation and get help(str).
     
 def endsPy(input):
+
+	last_two = input[-2:].lower()
+
+	if last_two == "py":
+		return True
+	else:
+		return False
+
 	return False
